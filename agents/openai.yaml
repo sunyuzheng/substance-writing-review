@@ -1,0 +1,6 @@
+interface:
+  display_name: "Substance Writing Review"
+  short_description: "Review and rewrite Chinese drafts with substance first"
+  default_prompt: "Use $substance-writing-review to review this Chinese draft and identify the strongest judgment, weak structure, and highest-impact edits."
+policy:
+  allow_implicit_invocation: true

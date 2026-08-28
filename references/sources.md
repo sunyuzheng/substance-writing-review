@@ -1,6 +1,6 @@
 # Sources
 
-This skill was distilled from recurring Chinese editing work and a substance-first writing standard.
+This skill was distilled from recurring Chinese drafting and editing work, including both multi-round rewrites where an argument needed a stronger causal structure and a later correction that those successful choices were contextual defaults rather than universal rules.
 
 Public influences:
 

@@ -1,17 +1,17 @@
-# Substance Writing Review
+# Substance Writing
 
-A Codex skill for substance-first Chinese writing review and revision.
+A Codex skill for substance-first Chinese drafting, rewriting, and deep editing.
 
-这个 skill 用来检查、改写或精修中文文章、脚本、口播稿、长文和帖子。它的核心不是把文字变得更像 AI、更新潮或更工整，而是找出源材料里真正有力量的判断、经历、细节和作者声音，并把它们放大。
+这个 skill 用来起草、重写或深度精修中文文章、脚本、口播稿、长文和帖子。它先判断当前稿件想成为什么，再选择与材料、读者和 surface 相称的组织方式，同时保留作者自己的声音。
 
 ## What It Helps With
 
-- 找到文章最该被读者记住的核心判断
+- 找到当前稿件最值得保留的判断、张力、场景或声音
+- 为论证、叙事、探索、参考或声音驱动的稿件选择合适的组织力量
 - 删除重复、绕弯、空泛铺垫和没有信息量的段落
-- 让推理链更清楚，让判断后面有来路
+- 识别“罗列代替洞见”“免责声明稀释定义”“标题锋利但正文很水”等情境性失真
 - 保留作者本人的语气、节奏和表达习惯
-- 检查中文 AI 味、翻译腔、空泛词和过度包装
-- 给出高信号 review，或直接重写成更清楚的版本
+- 判断用户反馈是局部选择还是全稿模式，并把它用在正确范围
 
 ## Install
 
@@ -27,7 +27,7 @@ If you keep skills somewhere else, copy or clone the repository into that skill 
 
 ## Usage
 
-Invoke it explicitly:
+It can be invoked automatically for matching tasks or explicitly:
 
 ```text
 Use $substance-writing-review to review this draft:
@@ -38,13 +38,19 @@ Use $substance-writing-review to review this draft:
 For rewriting:
 
 ```text
-Use $substance-writing-review to rewrite this article. Keep my voice, but make the main judgment clearer and cut anything that does not move the piece forward.
+Use $substance-writing-review to rewrite this article. Keep my voice, clarify the organizing logic appropriate to this piece, and explain any major cuts.
+```
+
+For a first draft:
+
+```text
+Use $substance-writing-review to draft this Chinese article. Decide what kind of piece the material wants to become, choose an appropriate organizing logic, and preserve my voice.
 ```
 
 For review only:
 
 ```text
-Use $substance-writing-review to review this script. Tell me what is strongest, what should be cut, and where the reasoning does not yet stand.
+Use $substance-writing-review to review this script. Tell me what gives it force, where it loses that force, and which changes would help without flattening its voice.
 ```
 
 ## Repository Structure
@@ -62,12 +68,13 @@ Use $substance-writing-review to review this script. Tell me what is strongest, 
 
 ## Design Principles
 
-This skill is written around result determinacy rather than a brittle editing checklist. It tells the agent what a good edit must preserve and improve:
+This skill uses result determinacy at the level the current task allows. It gives the agent room to choose while preserving the purpose and conditions behind its guidance:
 
-- substance before polish
-- judgment before phrasing
-- proof before rhetoric
+- context before template
+- substance before ornamental polish
+- source fidelity before fluent invention
 - author voice before generic smoothness
+- explained defaults before universal rules
 - reader respect before cleverness
 
 ## License

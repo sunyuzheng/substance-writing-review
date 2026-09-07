@@ -8,3 +8,7 @@ Public influences:
 - 鸭哥, 《写作中的AI味是哪儿来的》, for the Chinese translationese and AI-flavored prose checks: https://yage.ai/share/ai-chinese-translationese-20260418.html
 
 The public version intentionally excludes non-public drafts, local project paths, and personal voice guides.
+
+## Mirror maintenance
+
+On 2026-09-07, the repository owner authorized approved updates to this skill to include synchronizing the existing public mirror, committing and pushing to `main`, and verifying the remote commit without a separate publication confirmation. Git history provides traceability and rollback. This standing authorization applies to this skill and its existing public mirror; the exclusions above continue to apply.

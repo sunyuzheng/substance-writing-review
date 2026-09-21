@@ -11,6 +11,8 @@ The public version intentionally excludes non-public drafts, local project paths
 
 ## Mirror maintenance
 
+On 2026-09-21, the owner explicitly requested no sub-agents for writing tasks. The skill records this as the author's operating preference, covering source reading through final review, rather than as a universal editorial principle.
+
 On 2026-09-07, the repository owner authorized approved updates to this skill to include synchronizing the existing public mirror, committing and pushing to `main`, and verifying the remote commit without a separate publication confirmation. Git history provides traceability and rollback. This standing authorization applies to this skill and its existing public mirror; the exclusions above continue to apply.
 
 ## Argument-editing calibration
